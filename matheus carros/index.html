@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedor de carros</title>
+    <link rel="stylesheet" href="styles.css"> <!--CSS EXTERNO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!--Header-->
+    
+    <header>
+        <h1>Oficina do Mengudo</h1>
+        <img src="https://www.zarla.com/images/zarla-automobil-1x1-2400x2400-20210611-dbmx4c739pphcjw7r3w9.png?crop=1:1,smart&width=250&dpr=2" alt="">
+        <div class="header-menu">
+            <select>
+                <option value="" disabled selected>Selecione o Catálogo</option>
+                <option>Carros Usados</option>
+                <option>Carros Novos</option>
+                <option>Promoções</option>
+            </select>
+
+            <select>
+                <option value=""disabled selected>Selecione a Marca</option>
+                <option>Rust-eze</option>
+                <option>Buss-Destroid</option>
+                <option>Igniter</option>
+                <option>Dinoco</option>
+            </select>
+
+            <select>
+                <option value="" disabled selected>Selecione o Contato</option>
+                <option>Fale Conosco</option>
+                <option>Localização</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="slides">
+        <img src="../matheus carros/img/relampago mc queen banner.jpg" alt="Banner 1">
+        <img src="../matheus carros/img/maria busones.jpg" alt="Banner 2">
+        <img src="../matheus carros/img/Jackson_Storm_Poster.webp" alt="Banner 3">
+        <img src="../matheus carros/img/cuz banner.jpg" alt="Banner 4">
+        <img src="../matheus carros/img/sddefault.jpg" alt="Banner 4">
+        <img src="../matheus carros/img/carskk].jpg" alt="Banner 4">
+        <img src="../matheus carros/img/81+RL2Ie1gL._AC_UF894,1000_QL80_.jpg" alt="Banner 4">
+        <img src="../matheus carros/img/maria busao.webp" alt="Banner 4">
+        </div>
+    </div>
+
+    <!--Catálogo de carros-->
+
+    <section class="catalog">
+        <div class="catalog-card">
+            <img src="../matheus carros/img/relampago-mcqueen-pixar.jpeg" alt="Carro 1">
+            <h3>Relampago Mc Queen</h3>
+            <p>Apresentamos o Relâmpago McQueen, um carro esportivo de alto desempenho que combina velocidade impressionante com um design icônico. Inspirado no lendário carro de corrida dos filmes, o Relâmpago McQueen é a escolha perfeita para quem busca um veículo que oferece tanto estilo quanto potência.</p>
+            <a><b>R$70.000.0000</b></a>
+            <button>Saiba mais</button>
+        </div>
+
+        <div class="catalog-card">
+            <img src="../matheus carros/img/MissFritter.webp" alt="Carro 2">
+            <h3>Maria Busão</h3>
+            <p>Apresentamos a Maria Busão, a verdadeira estrela das ruas! Este ônibus versátil e cheio de personalidade é perfeito para quem busca espaço, conforto e um toque de charme. Com um design robusto e amigável, a Maria é ideal para passeios em grupo, excursões ou até mesmo um serviço de transporte coletivo.</p>
+            <a><b>R$45.000.0000</b></a>
+            <button>Saiba mais</button>
+        </div>
+
+        <div class="catalog-card">
+            <img src="../matheus carros/img/jackson storm.jpg" alt="Carro 3">
+            <h3>Jackson Storm</h3>
+            <p>Apresentamos o Jackson Storm, o carro de corrida que redefine a excelência e a inovação no mundo das corridas. Inspirado no famoso personagem dos filmes, Jackson Storm é o veículo ideal para quem busca um desempenho de elite e um design futurista impressionante.</p>
+            <a><b>R$150.000.0000</b></a>
+            <button>Saiba mais</button>
+        </div>
+
+        <div class="catalog-card">
+            <img src="../matheus carros/img/Cruz_Ramirez_29.webp" alt="Carro 4">
+            <h3>Cruz Ramirez</h3>
+            <p>Apresentamos a Cruz Ramirez, um carro de corrida que combina estilo vibrante com um desempenho excepcional. Inspirada pela famosa personagem dos filmes "Carros", Cruz Ramirez é o veículo perfeito para quem busca uma condução ágil e uma aparência impressionante.</p>
+            <a><b>R$90.000.0000</b></a>
+            <button>Saiba mais</button>
+        </div>
+    </section>
+
+    <!--Formulário de contato-->
+
+    <section class="form-container"> 
+        <div class="contact-form">
+        <h2>Entre em contato</h2>
+        <form action="#">
+            <label for="name"><i class="fas fa-bug"></i> Nome: </label>
+            <input type="text" id="name" placeholder="Digite o seu nome" >
+
+            <label for="email"><i class="fa fa-rocket"></i> Email: </label>
+            <input type="email" id="email" placeholder="Digite um e-mail válido" >
+
+            <label for="message"> <i class="fas fa-book"></i> Mensagem: </label>
+            <textarea id="message" rows="5" placeholder="Como podemos te ajudar?"></textarea>
+
+            <button type="submit"> <i class="fas fa-download"></i> Enviar</button>
+        </form>
+        </div>
+        <div class="form-image">
+            <img src="../matheus carros/img/loca.webp" alt="">
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        <ul>
+            <li><a href="#politicas">Políticas e Privacidade</a></li>
+            <li><a href="#termos">Termos e Serviços</a></li>
+        </ul>
+    </footer>
+
+
+</body>
+</html>
